@@ -56,18 +56,6 @@ img {
     background-color: mistyrose;
     text-align: center;
 }
-#key_years {
-    width: 50%;
-    background-color: lightblue;
-    border: 1px solid black;
-    padding: 10px;
-}
-#important_rides {
-    width: 50%;
-    background-color: lightyellow;
-    border: 1px solid black;
-    padding: 10px;
-}
 #footer ul {
     list-style: none;
     display: flex;
@@ -79,11 +67,13 @@ img {
     display: flex;
     gap: 20px;
 }
-#key_years  , #important_rides {
-    flex: 1;
-}
 @media (max-width: 600px) {
     body {
         font-size: 16px;
     }
+}
+.my-custom-heading {
+    font-family: 'Georgia' , serif;
+    font-weight: bold;
+    color: #5A198A
 }
